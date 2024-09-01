@@ -5,14 +5,14 @@ namespace ShortestRouteOptimizer.Service;
 
 public class Optimizer : IOptimizer
 {
-    private readonly IGraph<string> _graph;
+    private readonly Graph<string> _graph;
     private readonly string[] _nodes;
     
     // A -> [
     //  { B, <6, [A, B]> }
     //  { C, <9, [A, B, C]> }
     // ]
-    private readonly IDictionary<string, IDictionary<string, Trail<string>>> _dijkstraCache = new Dictionary<string, IDictionary<string, Trail<string>>>();
+    private readonly Dictionary<string, IDictionary<string, Trail<string>>> _dijkstraCache = new();
     
     public Optimizer()
     {

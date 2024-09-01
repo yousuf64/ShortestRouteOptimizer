@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortestRouteOptimizer.Mode
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortestRouteOptimizer.Service", "ShortestRouteOptimizer.Service\ShortestRouteOptimizer.Service.csproj", "{7FFCCD07-1C3F-48C3-BB64-AF350FC6C10F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortestRouteOptimize.Service.Tests", "ShortestRouteOptimize.Service.Tests\ShortestRouteOptimize.Service.Tests.csproj", "{784D82EC-2B19-46C3-AFFF-AB7B321387D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{7FFCCD07-1C3F-48C3-BB64-AF350FC6C10F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FFCCD07-1C3F-48C3-BB64-AF350FC6C10F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FFCCD07-1C3F-48C3-BB64-AF350FC6C10F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{784D82EC-2B19-46C3-AFFF-AB7B321387D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{784D82EC-2B19-46C3-AFFF-AB7B321387D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{784D82EC-2B19-46C3-AFFF-AB7B321387D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{784D82EC-2B19-46C3-AFFF-AB7B321387D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
