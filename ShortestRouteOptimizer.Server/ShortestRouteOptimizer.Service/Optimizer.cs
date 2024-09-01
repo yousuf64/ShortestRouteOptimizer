@@ -18,29 +18,19 @@ public class Optimizer : IOptimizer
     {
         _nodes = ["A", "B", "C", "D", "E", "F", "G", "H", "I"];
         _graph = new Graph<string>(_nodes);
-        _graph.AddEdge("A", "B", 4);
-        _graph.AddEdge("B", "A", 4);
-        _graph.AddEdge("A", "C", 6);
-        _graph.AddEdge("C", "A", 6);
-        _graph.AddEdge("B", "F", 2);
-        _graph.AddEdge("F", "B", 2);
-        _graph.AddEdge("C", "D", 8);
-        _graph.AddEdge("D", "C", 8);
-        _graph.AddEdge("F", "E", 3);
-        _graph.AddEdge("E", "F", 3);
-        _graph.AddEdge("E", "D", 4);
-        _graph.AddEdge("D", "E", 4);
+        _graph.AddBidirectionalEdge("A", "B", 4);
+        _graph.AddBidirectionalEdge("A", "C", 6);
+        _graph.AddBidirectionalEdge("B", "F", 2);
+        _graph.AddBidirectionalEdge("C", "D", 8);
+        _graph.AddBidirectionalEdge("D", "E", 4);
+        _graph.AddBidirectionalEdge("D", "G", 1);
         _graph.AddEdge("E", "B", 2);
-        _graph.AddEdge("F", "G", 4);
-        _graph.AddEdge("G", "F", 4);
-        _graph.AddEdge("F", "H", 6);
-        _graph.AddEdge("H", "F", 6);
-        _graph.AddEdge("G", "H", 5);
-        _graph.AddEdge("H", "G", 5);
-        _graph.AddEdge("G", "I", 5);
-        _graph.AddEdge("I", "G", 5);
-        _graph.AddEdge("I", "E", 8);
-        _graph.AddEdge("E", "I", 8);
+        _graph.AddBidirectionalEdge("E", "F", 3);
+        _graph.AddBidirectionalEdge("E", "I", 8);
+        _graph.AddBidirectionalEdge("F", "G", 4);
+        _graph.AddBidirectionalEdge("F", "H", 6);
+        _graph.AddBidirectionalEdge("G", "H", 5);
+        _graph.AddBidirectionalEdge("G", "I", 5);
     }
 
     public IReadOnlyCollection<string> GetNodes() => _nodes;
