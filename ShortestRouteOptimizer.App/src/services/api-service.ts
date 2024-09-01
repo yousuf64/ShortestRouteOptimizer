@@ -1,5 +1,5 @@
 import axios from 'axios'
-import type { ShortestPathData } from '@/models/shortest-path-data'
+import type { ShortestPathData } from '@/types'
 
 export async function fetchNodes(): Promise<string[]> {
   try {

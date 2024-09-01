@@ -1,6 +1,11 @@
 @ShortestRouteOptimizer.Api_HostAddress = https://localhost:7171
 
+### Get all nodes in graph
 GET {{ShortestRouteOptimizer.Api_HostAddress}}/api/v1/nodes/
 Accept: application/json
 
-###
+### Find shortest path between two vertices
+@FromNodeName = A
+@ToNodeName = I
+GET {{ShortestRouteOptimizer.Api_HostAddress}}/api/v1/shortest-path/{{FromNodeName}}/{{ToNodeName}}
+Accept: application/json
