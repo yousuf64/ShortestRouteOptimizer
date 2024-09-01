@@ -1,0 +1,6 @@
+@ShortestRouteOptimizer.Api_HostAddress = https://localhost:7171
+
+GET {{ShortestRouteOptimizer.Api_HostAddress}}/api/v1/nodes/
+Accept: application/json
+
+###

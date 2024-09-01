@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortestRouteOptimizer.Api", "ShortestRouteOptimizer.Api\ShortestRouteOptimizer.Api.csproj", "{B4A62B7D-EB0E-4915-8F04-2AB36637E4C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortestRouteOptimizer.Contracts", "ShortestRouteOptimizer.Contracts\ShortestRouteOptimizer.Contracts.csproj", "{3121E6F0-F090-4779-925D-92CEBAAAC6B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortestRouteOptimizer.Models", "ShortestRouteOptimizer.Models\ShortestRouteOptimizer.Models.csproj", "{22AE7659-E562-48C3-A827-80F503C4DBD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortestRouteOptimizer.Service", "ShortestRouteOptimizer.Service\ShortestRouteOptimizer.Service.csproj", "{7FFCCD07-1C3F-48C3-BB64-AF350FC6C10F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4A62B7D-EB0E-4915-8F04-2AB36637E4C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A62B7D-EB0E-4915-8F04-2AB36637E4C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A62B7D-EB0E-4915-8F04-2AB36637E4C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A62B7D-EB0E-4915-8F04-2AB36637E4C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3121E6F0-F090-4779-925D-92CEBAAAC6B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3121E6F0-F090-4779-925D-92CEBAAAC6B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3121E6F0-F090-4779-925D-92CEBAAAC6B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3121E6F0-F090-4779-925D-92CEBAAAC6B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22AE7659-E562-48C3-A827-80F503C4DBD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22AE7659-E562-48C3-A827-80F503C4DBD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22AE7659-E562-48C3-A827-80F503C4DBD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22AE7659-E562-48C3-A827-80F503C4DBD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FFCCD07-1C3F-48C3-BB64-AF350FC6C10F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FFCCD07-1C3F-48C3-BB64-AF350FC6C10F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FFCCD07-1C3F-48C3-BB64-AF350FC6C10F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FFCCD07-1C3F-48C3-BB64-AF350FC6C10F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
